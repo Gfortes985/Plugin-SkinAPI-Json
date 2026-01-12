@@ -42,3 +42,23 @@ Returns the cape of the given user.
 | -------------- | --------- | ----------------------- |
 | `access_token` | string    | The user's access token |
 | `cape`         | image/png | The cape file           |
+
+### Json
+
+**GET** `/api/skin-api/textures/{user_name}`
+Return the json like this
+```
+{
+  "SKIN": {
+    "url": "http://example.com/skins/Gravita.png",
+    "digest": "SHA256 HASH (HEX)",
+    "metadata": {
+      "model": "slim"
+    }
+  },
+  "CAPE": {
+    "url": "http://example.com/cloaks/Gravita.png",
+    "digest": "SHA256 HASH (HEX)"
+  }
+}
+```
