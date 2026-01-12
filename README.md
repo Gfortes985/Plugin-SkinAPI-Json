@@ -50,14 +50,14 @@ Return the json like this
 ```
 {
   "SKIN": {
-    "url": "http://example.com/skins/Gravita.png",
+    "url": "http://example.com/api/skin-api/skins/gfortes",
     "digest": "SHA256 HASH (HEX)",
     "metadata": {
       "model": "slim"
     }
   },
   "CAPE": {
-    "url": "http://example.com/cloaks/Gravita.png",
+    "url": "http://example.com/api/skin-api/capes/gfortes",
     "digest": "SHA256 HASH (HEX)"
   }
 }
