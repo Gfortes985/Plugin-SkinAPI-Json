@@ -1,6 +1,7 @@
 <?php
 
 use Azuriom\Plugin\SkinApi\Controllers\Api\ApiController;
+use Azuriom\Plugin\SkinApi\Controllers\TextureJsonController;
 use Illuminate\Support\Facades\Route;
 
 // Skins
