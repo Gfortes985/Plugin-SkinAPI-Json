@@ -17,3 +17,6 @@ Route::get('/capes/{user}.png', [ApiController::class, 'cape'])->name('cape');
 Route::get('/capes/{user}', [ApiController::class, 'cape']);
 Route::post('/capes', [ApiController::class, 'updateCape'])->name('capes.update');
 Route::delete('/capes', [ApiController::class, 'deleteCape'])->name('capes.delete');
+
+// Json Provider
+Route::get('/textures/{username}', [TextureJsonController::class, 'handle']);
